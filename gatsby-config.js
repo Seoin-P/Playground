@@ -217,10 +217,15 @@ const gtagPlugins = [
   },
 ]
 
+const netlifyPlugin = [
+ "gatsby-plugin-netlify",
+]
+
 module.exports = {
   graphqlTypegen: true,
   siteMetadata,
   plugins: [
+    ...netlifyPlugin,
     ...corePlugins,
     ...devPlugins,
     ...imagePlugins,

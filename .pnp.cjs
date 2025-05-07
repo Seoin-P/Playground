@@ -60,6 +60,7 @@ const RAW_RUNTIME_STATE =
           ["gatsby-plugin-google-gtag", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.14.0"],\
           ["gatsby-plugin-image", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:3.14.0"],\
           ["gatsby-plugin-manifest", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.14.0"],\
+          ["gatsby-plugin-netlify", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.1.1"],\
           ["gatsby-plugin-offline", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:6.14.0"],\
           ["gatsby-plugin-react-helmet", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:6.14.0"],\
           ["gatsby-plugin-robots-txt", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:1.8.0"],\
@@ -7412,10 +7413,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:f84d18c473fad3c01e1cf352f81ad13de804ca40da5bf6e752464a2e78dcb097ad579b06da5ff33a55ba9957fb9c74909b99fc5e215420a3f9b5dc87ad71363b#npm:3.5.2", {\
-        "packageLocation": "./.yarn/__virtual__/ajv-keywords-virtual-11d24a6cf1/4/.yarn/berry/cache/ajv-keywords-npm-3.5.2-0e391b70e2-10c0.zip/node_modules/ajv-keywords/",\
+      ["virtual:f2b36937f163b579815d3163513b3330d7a31aaf0599eea66346382b8838395c613f4204e9809cc2ff6bba09c17ab0c34b37deadcb147de7e2f5e535d6ccc245#npm:3.5.2", {\
+        "packageLocation": "./.yarn/__virtual__/ajv-keywords-virtual-80fc73abbe/4/.yarn/berry/cache/ajv-keywords-npm-3.5.2-0e391b70e2-10c0.zip/node_modules/ajv-keywords/",\
         "packageDependencies": [\
-          ["ajv-keywords", "virtual:f84d18c473fad3c01e1cf352f81ad13de804ca40da5bf6e752464a2e78dcb097ad579b06da5ff33a55ba9957fb9c74909b99fc5e215420a3f9b5dc87ad71363b#npm:3.5.2"],\
+          ["ajv-keywords", "virtual:f2b36937f163b579815d3163513b3330d7a31aaf0599eea66346382b8838395c613f4204e9809cc2ff6bba09c17ab0c34b37deadcb147de7e2f5e535d6ccc245#npm:3.5.2"],\
           ["@types/ajv", null],\
           ["ajv", "npm:6.12.6"]\
         ],\
@@ -13873,6 +13874,34 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["gatsby-plugin-netlify", [\
+      ["npm:5.1.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/gatsby-plugin-netlify-npm-5.1.1-ce49983f88-10c0.zip/node_modules/gatsby-plugin-netlify/",\
+        "packageDependencies": [\
+          ["gatsby-plugin-netlify", "npm:5.1.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/gatsby-plugin-netlify-virtual-a1c8c4cbd9/4/.yarn/berry/cache/gatsby-plugin-netlify-npm-5.1.1-ce49983f88-10c0.zip/node_modules/gatsby-plugin-netlify/",\
+        "packageDependencies": [\
+          ["gatsby-plugin-netlify", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.1.1"],\
+          ["@babel/runtime", "npm:7.27.1"],\
+          ["@types/gatsby", null],\
+          ["fs-extra", "npm:11.3.0"],\
+          ["gatsby", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.14.3"],\
+          ["gatsby-core-utils", "npm:4.14.0"],\
+          ["kebab-hash", "npm:0.1.2"],\
+          ["lodash.mergewith", "npm:4.6.2"],\
+          ["webpack-assets-manifest", "virtual:a1c8c4cbd9163305b41a2cda61c2cc5f851952de9d0f999bc2a43723f8e67870c2adb9e67600eb522cbeef1dfd20bde376a4c6f3ae049dd277cdbb3aa3dee597#npm:5.2.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/gatsby",\
+          "gatsby"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["gatsby-plugin-offline", [\
       ["npm:6.14.0", {\
         "packageLocation": "../../../.yarn/berry/cache/gatsby-plugin-offline-npm-6.14.0-87805d241e-10c0.zip/node_modules/gatsby-plugin-offline/",\
@@ -14454,6 +14483,7 @@ const RAW_RUNTIME_STATE =
           ["gatsby-plugin-google-gtag", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.14.0"],\
           ["gatsby-plugin-image", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:3.14.0"],\
           ["gatsby-plugin-manifest", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.14.0"],\
+          ["gatsby-plugin-netlify", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:5.1.1"],\
           ["gatsby-plugin-offline", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:6.14.0"],\
           ["gatsby-plugin-react-helmet", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:6.14.0"],\
           ["gatsby-plugin-robots-txt", "virtual:3985e4bb8443e18cf241b428290a17e6989d0abc87b44e87ebe9bc2f7dce478c5928fdf4f73b83025b8f93de82f00ee5b7e9b21d9f00ea73cc743cd510230bbd#npm:1.8.0"],\
@@ -17146,6 +17176,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["kebab-hash", [\
+      ["npm:0.1.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/kebab-hash-npm-0.1.2-e130c7867f-10c0.zip/node_modules/kebab-hash/",\
+        "packageDependencies": [\
+          ["kebab-hash", "npm:0.1.2"],\
+          ["lodash.kebabcase", "npm:4.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["keyv", [\
       ["npm:4.5.4", {\
         "packageLocation": "../../../.yarn/berry/cache/keyv-npm-4.5.4-4c8e2cf7f7-10c0.zip/node_modules/keyv/",\
@@ -17561,6 +17601,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lockfile", [\
+      ["npm:1.0.4", {\
+        "packageLocation": "../../../.yarn/berry/cache/lockfile-npm-1.0.4-00301b5723-10c0.zip/node_modules/lockfile/",\
+        "packageDependencies": [\
+          ["lockfile", "npm:1.0.4"],\
+          ["signal-exit", "npm:3.0.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lodash", [\
       ["npm:4.17.21", {\
         "packageLocation": "../../../.yarn/berry/cache/lodash-npm-4.17.21-6382451519-10c0.zip/node_modules/lodash/",\
@@ -17665,6 +17715,24 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/lodash.foreach-npm-4.5.0-ca8531894e-10c0.zip/node_modules/lodash.foreach/",\
         "packageDependencies": [\
           ["lodash.foreach", "npm:4.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.get", [\
+      ["npm:4.4.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/lodash.get-npm-4.4.2-7bda64ed87-10c0.zip/node_modules/lodash.get/",\
+        "packageDependencies": [\
+          ["lodash.get", "npm:4.4.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.has", [\
+      ["npm:4.5.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/lodash.has-npm-4.5.2-0a10673e08-10c0.zip/node_modules/lodash.has/",\
+        "packageDependencies": [\
+          ["lodash.has", "npm:4.5.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -22839,7 +22907,7 @@ const RAW_RUNTIME_STATE =
           ["schema-utils", "npm:2.7.0"],\
           ["@types/json-schema", "npm:7.0.15"],\
           ["ajv", "npm:6.12.6"],\
-          ["ajv-keywords", "virtual:f84d18c473fad3c01e1cf352f81ad13de804ca40da5bf6e752464a2e78dcb097ad579b06da5ff33a55ba9957fb9c74909b99fc5e215420a3f9b5dc87ad71363b#npm:3.5.2"]\
+          ["ajv-keywords", "virtual:f2b36937f163b579815d3163513b3330d7a31aaf0599eea66346382b8838395c613f4204e9809cc2ff6bba09c17ab0c34b37deadcb147de7e2f5e535d6ccc245#npm:3.5.2"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -22849,7 +22917,7 @@ const RAW_RUNTIME_STATE =
           ["schema-utils", "npm:2.7.1"],\
           ["@types/json-schema", "npm:7.0.15"],\
           ["ajv", "npm:6.12.6"],\
-          ["ajv-keywords", "virtual:f84d18c473fad3c01e1cf352f81ad13de804ca40da5bf6e752464a2e78dcb097ad579b06da5ff33a55ba9957fb9c74909b99fc5e215420a3f9b5dc87ad71363b#npm:3.5.2"]\
+          ["ajv-keywords", "virtual:f2b36937f163b579815d3163513b3330d7a31aaf0599eea66346382b8838395c613f4204e9809cc2ff6bba09c17ab0c34b37deadcb147de7e2f5e535d6ccc245#npm:3.5.2"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -22859,7 +22927,7 @@ const RAW_RUNTIME_STATE =
           ["schema-utils", "npm:3.3.0"],\
           ["@types/json-schema", "npm:7.0.15"],\
           ["ajv", "npm:6.12.6"],\
-          ["ajv-keywords", "virtual:f84d18c473fad3c01e1cf352f81ad13de804ca40da5bf6e752464a2e78dcb097ad579b06da5ff33a55ba9957fb9c74909b99fc5e215420a3f9b5dc87ad71363b#npm:3.5.2"]\
+          ["ajv-keywords", "virtual:f2b36937f163b579815d3163513b3330d7a31aaf0599eea66346382b8838395c613f4204e9809cc2ff6bba09c17ab0c34b37deadcb147de7e2f5e535d6ccc245#npm:3.5.2"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -25894,6 +25962,35 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/webpack-cli",\
           "webpack-cli"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["webpack-assets-manifest", [\
+      ["npm:5.2.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/webpack-assets-manifest-npm-5.2.1-f736b7198f-10c0.zip/node_modules/webpack-assets-manifest/",\
+        "packageDependencies": [\
+          ["webpack-assets-manifest", "npm:5.2.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:a1c8c4cbd9163305b41a2cda61c2cc5f851952de9d0f999bc2a43723f8e67870c2adb9e67600eb522cbeef1dfd20bde376a4c6f3ae049dd277cdbb3aa3dee597#npm:5.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/webpack-assets-manifest-virtual-ef604fbea0/4/.yarn/berry/cache/webpack-assets-manifest-npm-5.2.1-f736b7198f-10c0.zip/node_modules/webpack-assets-manifest/",\
+        "packageDependencies": [\
+          ["webpack-assets-manifest", "virtual:a1c8c4cbd9163305b41a2cda61c2cc5f851952de9d0f999bc2a43723f8e67870c2adb9e67600eb522cbeef1dfd20bde376a4c6f3ae049dd277cdbb3aa3dee597#npm:5.2.1"],\
+          ["@types/webpack", null],\
+          ["chalk", "npm:4.1.2"],\
+          ["deepmerge", "npm:4.3.1"],\
+          ["lockfile", "npm:1.0.4"],\
+          ["lodash.get", "npm:4.4.2"],\
+          ["lodash.has", "npm:4.5.2"],\
+          ["schema-utils", "npm:3.3.0"],\
+          ["tapable", "npm:2.2.1"],\
+          ["webpack", null]\
+        ],\
+        "packagePeers": [\
+          "@types/webpack",\
+          "webpack"\
         ],\
         "linkType": "HARD"\
       }]\
