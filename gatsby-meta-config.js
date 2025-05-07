@@ -21,7 +21,7 @@ const metaConfig = {
   title: "Playground",
   description: "Playground for s.owen",
   author: "Seoin-P",
-  siteUrl: "",
+  siteUrl: "https://sowen0playground.netlify.app",
   lang: "en-US",
   utterances: "",
   links: {},
